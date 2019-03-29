@@ -1,8 +1,0 @@
-Public class FruitSeller{
-	pubic static void main(String[] args){
-	s1 = system.out.println("초기 사과 개수:" + howmanyApple(20) +" 판매수익:"+ saleMoney(0));
-	s2 = system.out.println("초기 사과 개수:" + howmanyApple(50) +" 판매수익:"+ saleMoney(10000));
-	
-	}
-
-}
