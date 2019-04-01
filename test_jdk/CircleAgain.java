@@ -1,20 +1,29 @@
-import java.util.Scanner;
-public class CircleAgain{
-        public static void main(String[] args){
-                int radius;
-                double PL = 3.14;
-                Scanner input = new Scanner(System.in);        
-                
-		while(true){
-                      System.out.println("반지름을 입력하세요");
-                	radius = input.nextInt(); 
-                if (radius == 0){
-                        System.out.println("0보다 큰 수를 입력하세요");
-			break;}
-                else{
+class Circle {
  
-			System.out.printf("원의 면적 %f", PL*radius*radius);
-                }
-	}
+    int radius;
+ 
+    public Circle(int radius) {
+        this.radius = radius;
+    }
+
+    public double Area() {
+        return radius * radius * Math.PI;
+    }
+
+    public double Round() {
+        return radius * 2 * Math.PI;
+    }
+}
+public class CircleAgain{
+
+
+
+       	public static void main(String args[]){
+		Circle c1 = new Circle();
+		System.out.println(c1.Round(10)+ c1.Area(10));
+		Circle c2 = new Circle();
+		System.out.println(c2.Round(20)+ c2.Area(20));
+	
+		
         }
 }
