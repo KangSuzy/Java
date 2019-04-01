@@ -1,6 +1,6 @@
 class Circle{
  	int r;
- 	double PI = 3.14;
+ 	final double PI = 3.14;
 }
 public class CircleTest{
 	public static void main(String args[]){
