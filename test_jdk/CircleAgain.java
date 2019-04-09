@@ -1,4 +1,4 @@
-class Circle{
+class CircleAgain{
 	double radius;
 	double round;
 	double area;

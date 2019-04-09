@@ -1,4 +1,4 @@
-class FruitSeller{
+class FruitSellerTest{
 	int apple;
 	int sales;
 }
