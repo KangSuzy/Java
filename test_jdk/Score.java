@@ -8,10 +8,10 @@ public class Score {
 		int engScore = 100;
 		
 		int totalScore =  mathScore + engScore;
-		System.out.println("ÃÑÁ¡ "+totalScore);
+		System.out.println("total "+totalScore);
 		
 		double avgScore = totalScore / 2.0;
-		System.out.println("Æò±Õ "+avgScore);
+		System.out.println("avg"+avgScore);
 		
 	}
 
